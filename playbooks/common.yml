@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
-- name: update web, nfs and db servers
-  hosts: webservers, nfs, db
-=======
 - name: update web and nfs servers
   hosts: webservers, nfs
->>>>>>> ec8586c76d5c5e4672ae45fd3b441d1f12da4004
   remote_user: ec2-user
   become: yes
   become_user: root
