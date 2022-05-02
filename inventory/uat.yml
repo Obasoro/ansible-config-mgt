@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 [uat_webservers]
 172.31.27.91 ansible_ssh_user='ec2-user' 
 
+=======
+[uat_webservers]
+172.31.27.91 ansible_ssh_user='ec2-user' 
+
+>>>>>>> ec56822673532521aeb2e92b0a9ac307188e6090
 172.31.19.141 ansible_ssh_user='ec2-user'
